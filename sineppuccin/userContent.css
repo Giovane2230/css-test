@@ -1,44 +1,44 @@
-@-moz-document url-prefix("about:") {
-    :root {
-        --in-content-page-background: var(--ctp-base, #1e1e2e) !important;
-        --in-content-page-color: var(--ctp-text, #cdd6f4) !important;
+/* Scrollbars em páginas web */
+@-moz-document url-prefix("http"), url-prefix("file"), url-prefix("about") {
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
 
-        --in-content-box-background: var(--ctp-surface0, #313244) !important;
-        --in-content-box-border-color: var(--ctp-surface2, #585b70) !important;
+  ::-webkit-scrollbar-track {
+    background: var(--cp-surface);
+  }
 
-        --in-content-primary-button-background: var(--ctp-accent, #cba6f7) !important;
+  ::-webkit-scrollbar-thumb {
+    background: var(--cp-overlay);
+    border-radius: 6px;
+  }
 
-        --in-content-link-color: var(--ctp-blue, #89b4fa) !important;
-        --in-content-link-color-hover: var(--ctp-sky, #89dceb) !important;
-
-        --in-content-border-color: var(--ctp-surface2, #585b70) !important;
-        --in-content-border-focus: var(--ctp-accent, #cba6f7) !important;
-    }
-
-    input[type="text"],
-    input[type="search"] {
-        background-color: var(--ctp-surface0, #313244) !important;
-        color: var(--ctp-text, #cdd6f4) !important;
-        border: 1px solid var(--ctp-surface2, #585b70) !important;
-    }
-
-    input:focus {
-        border-color: var(--ctp-accent, #cba6f7) !important;
-    }
-
-    input[type="checkbox"]:checked {
-        background-color: var(--ctp-accent, #cba6f7) !important;
-    }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--cp-accent);
+  }
 }
 
+/* Harmonizar páginas internas do navegador */
+@-moz-document url-prefix("about:preferences"),
+               url-prefix("about:addons"),
+               url-prefix("about:config") {
+  body {
+    background-color: var(--cp-bg) !important;
+    color: var(--cp-text) !important;
+  }
 
-@-moz-document url("about:addons") {
-    .card {
-        background-color: var(--ctp-surface0, #313244) !important;
-        border: 1px solid var(--ctp-surface2, #585b70) !important;
-    }
+  a, .text-link {
+    color: var(--cp-accent) !important;
+  }
 
-    .addon-card:hover {
-        background-color: var(--ctp-surface1, #45475a) !important;
-    }
+  button, select, input {
+    background-color: var(--cp-surface) !important;
+    color: var(--cp-text) !important;
+    border: 1px solid var(--cp-overlay) !important;
+  }
+
+  button:hover, select:hover, input:hover {
+    border-color: var(--cp-accent) !important;
+  }
 }

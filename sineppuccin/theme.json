@@ -1,0 +1,12 @@
+{
+  "id": "catppuccin",
+  "name": "Catppuccin",
+  "version": "0.0.1",
+  "description": "Catppuccin for Sine",
+  "author": "Giovane2230",
+  "styleSheets": {
+    "userChrome": "userChrome.css",
+    "userContent": "userContent.css"
+  },
+  "preferences": "preferences.json"
+}

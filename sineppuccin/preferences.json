@@ -1,0 +1,37 @@
+[
+  {
+    "id": "flavor",
+    "type": "select",
+    "name": "Flavor",
+    "description": "Choose a flavor",
+    "default": "mocha",
+    "options": [
+      { "value": "latte",     "label": "Latte" },
+      { "value": "frappe",    "label": "Frappe" },
+      { "value": "macchiato", "label": "Macchiato" },
+      { "value": "mocha",     "label": "Mocha" }
+    ]
+  },
+  {
+    "id": "accent",
+    "type": "select",
+    "name": "Accent Color",
+    "description": "Choose an accent color",
+    "default": "mauve",
+    "options": [
+      { "value": "rosewater", "label": "Rosewater" },
+      { "value": "mauve",     "label": "Mauve" },
+      { "value": "pink",      "label": "Pink" },
+      { "value": "red",       "label": "Red" },
+      { "value": "maroon",    "label": "Maroon" },
+      { "value": "peach",     "label": "Peach" },
+      { "value": "yellow",    "label": "Yellow" },
+      { "value": "green",     "label": "Green" },
+      { "value": "teal",      "label": "Teal" },
+      { "value": "sky",       "label": "Sky" },
+      { "value": "sapphire",  "label": "Sapphire" },
+      { "value": "blue",      "label": "Blue" },
+      { "value": "lavender",  "label": "Lavender" }
+    ]
+  }
+]
