@@ -142,3 +142,130 @@ html[data-theme-catppuccin-accent="blue"] {
 html[data-theme-catppuccin-accent="lavender"] {
   --cp-accent: var(--cp-accent-lavender);
 }
+
+/* Catppuccin Adaptado para Sine */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Mapeando as variáveis do Zen para as suas */
+    --zen-colors-primary: var(--cp-surface) !important;
+    --zen-primary-color: var(--cp-accent) !important;
+    --zen-colors-secondary: var(--cp-surface) !important;
+    --zen-colors-tertiary: var(--cp-overlay) !important;
+    --zen-colors-border: var(--cp-accent) !important;
+
+    --toolbarbutton-icon-fill: var(--cp-accent) !important;
+    --lwt-text-color: var(--cp-text) !important;
+    --toolbar-field-color: var(--cp-text) !important;
+    --tab-selected-textcolor: var(--cp-text) !important;
+    --toolbar-field-focus-color: var(--cp-text) !important;
+    --toolbar-color: var(--cp-text) !important;
+    --newtab-text-primary-color: var(--cp-text) !important;
+    --arrowpanel-color: var(--cp-text) !important;
+
+    --arrowpanel-background: var(--cp-bg) !important;
+    --sidebar-text-color: var(--cp-text) !important;
+    --lwt-sidebar-text-color: var(--cp-text) !important;
+    --lwt-sidebar-background-color: var(--cp-overlay) !important;
+
+    --toolbar-bgcolor: var(--cp-surface) !important;
+    --newtab-background-color: var(--cp-bg) !important;
+    --zen-themed-toolbar-bg: var(--cp-overlay) !important;
+    --zen-main-browser-background: var(--cp-overlay) !important;
+    --toolbox-bgcolor-inactive: var(--cp-overlay) !important;
+  }
+
+  /* Exemplos de aplicação */
+  #TabsToolbar {
+    background-color: var(--cp-overlay) !important;
+    color: var(--cp-text) !important;
+  }
+
+  #nav-bar {
+    background-color: var(--cp-surface) !important;
+    color: var(--cp-text) !important;
+  }
+
+  .urlbar-background {
+    background-color: var(--cp-bg) !important;
+  }
+
+  .urlbarView-url {
+    color: var(--cp-accent) !important;
+  }
+
+  hbox#titlebar,
+  #zen-appcontent-navbar-container {
+    background-color: var(--cp-overlay) !important;
+  }
+
+.identity-color-blue {
+  --identity-tab-color: var(--cp-accent-blue) !important;
+  --identity-icon-color: var(--cp-accent-blue) !important;
+}
+
+.identity-color-green {
+  --identity-tab-color: var(--cp-accent-green) !important;
+  --identity-icon-color: var(--cp-accent-green) !important;
+}
+
+.identity-color-red {
+  --identity-tab-color: var(--cp-accent-red) !important;
+  --identity-icon-color: var(--cp-accent-red) !important;
+}
+
+.identity-color-yellow {
+  --identity-tab-color: var(--cp-accent-yellow) !important;
+  --identity-icon-color: var(--cp-accent-yellow) !important;
+}
+
+.identity-color-teal {
+  --identity-tab-color: var(--cp-accent-teal) !important;
+  --identity-icon-color: var(--cp-accent-teal) !important;
+}
+
+.identity-color-pink {
+  --identity-tab-color: var(--cp-accent-pink) !important;
+  --identity-icon-color: var(--cp-accent-pink) !important;
+}
+
+.identity-color-mauve {
+  --identity-tab-color: var(--cp-accent-mauve) !important;
+  --identity-icon-color: var(--cp-accent-mauve) !important;
+}
+
+.identity-color-lavender {
+  --identity-tab-color: var(--cp-accent-lavender) !important;
+  --identity-icon-color: var(--cp-accent-lavender) !important;
+}
+
+.identity-color-rosewater {
+  --identity-tab-color: var(--cp-accent-rosewater) !important;
+  --identity-icon-color: var(--cp-accent-rosewater) !important;
+}
+
+.identity-color-flamingo {
+  --identity-tab-color: var(--cp-accent-flamingo) !important;
+  --identity-icon-color: var(--cp-accent-flamingo) !important;
+}
+
+.identity-color-maroon {
+  --identity-tab-color: var(--cp-accent-maroon) !important;
+  --identity-icon-color: var(--cp-accent-maroon) !important;
+}
+
+.identity-color-peach {
+  --identity-tab-color: var(--cp-accent-peach) !important;
+  --identity-icon-color: var(--cp-accent-peach) !important;
+}
+
+.identity-color-sky {
+  --identity-tab-color: var(--cp-accent-sky) !important;
+  --identity-icon-color: var(--cp-accent-sky) !important;
+}
+
+.identity-color-sapphire {
+  --identity-tab-color: var(--cp-accent-sapphire) !important;
+  --identity-icon-color: var(--cp-accent-sapphire) !important;
+}
+}
