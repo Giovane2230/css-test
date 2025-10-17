@@ -143,11 +143,8 @@
   --cp-accent: var(--cp-accent-lavender);
 }
 
-/* Catppuccin Adaptado para Sine */
 
-@media (prefers-color-scheme: dark) {
   :root {
-    /* Mapeando as variáveis do Zen para as suas */
     --zen-colors-primary: var(--cp-surface) !important;
     --zen-primary-color: var(--cp-accent) !important;
     --zen-colors-secondary: var(--cp-surface) !important;
@@ -175,7 +172,6 @@
     --toolbox-bgcolor-inactive: var(--cp-overlay) !important;
   }
 
-  /* Exemplos de aplicação */
   #TabsToolbar {
     background-color: var(--cp-overlay) !important;
     color: var(--cp-text) !important;
@@ -267,5 +263,4 @@
 .identity-color-sapphire {
   --identity-tab-color: var(--cp-accent-sapphire) !important;
   --identity-icon-color: var(--cp-accent-sapphire) !important;
-}
 }
