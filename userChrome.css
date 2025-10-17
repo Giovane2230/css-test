@@ -8,7 +8,7 @@
     --cp-accent: #89B4FA;
 }
 
-html[data-theme-catppuccin-flavor="latte"] {
+:root[data-theme-catppuccin-flavor="latte"] {
     --cp-bg: #eff0f1;
     --cp-surface: #e6e9ef;
     --cp-overlay: #dce0e8;
@@ -31,7 +31,7 @@ html[data-theme-catppuccin-flavor="latte"] {
     --cp-accent-lavender: #7287fd;
 }
 
-html[data-theme-catppuccin-flavor="frappe"] {
+:root[data-theme-catppuccin-flavor="frappe"] {
     --cp-bg: #303446;
     --cp-surface: #292c3c;
     --cp-overlay: #232634;
@@ -54,7 +54,7 @@ html[data-theme-catppuccin-flavor="frappe"] {
     --cp-accent-lavender: #babbf1;
 }
 
-html[data-theme-catppuccin-flavor="macchiato"] {
+:root[data-theme-catppuccin-flavor="macchiato"] {
     --cp-bg: #24273a;
     --cp-surface: #1e2030;
     --cp-overlay: #181926;
@@ -77,7 +77,7 @@ html[data-theme-catppuccin-flavor="macchiato"] {
     --cp-accent-lavender: #b7bdf8;
 }
 
-html[data-theme-catppuccin-flavor="mocha"] {
+:root[data-theme-catppuccin-flavor="mocha"] {
     --cp-bg: #1e1e2e;
     --cp-surface: #302d41;
     --cp-overlay: #575268;
@@ -100,46 +100,46 @@ html[data-theme-catppuccin-flavor="mocha"] {
     --cp-accent-lavender: #b4befe;
 }
 
-html[data-theme-catppuccin-accent="rosewater"] {
+:root[data-theme-catppuccin-accent="rosewater"] {
   --cp-accent: var(--cp-accent-rosewater);
 }
-html[data-theme-catppuccin-accent="flamingo"] {
+:root[data-theme-catppuccin-accent="flamingo"] {
   --cp-accent: var(--cp-accent-flamingo);
 }
-html[data-theme-catppuccin-accent="pink"] {
+:root[data-theme-catppuccin-accent="pink"] {
   --cp-accent: var(--cp-accent-pink);
 }
-html[data-theme-catppuccin-accent="mauve"] {
+:root[data-theme-catppuccin-accent="mauve"] {
   --cp-accent: var(--cp-accent-mauve);
 }
-html[data-theme-catppuccin-accent="red"] {
+:root[data-theme-catppuccin-accent="red"] {
   --cp-accent: var(--cp-accent-red);
 }
-html[data-theme-catppuccin-accent="maroon"] {
+:root[data-theme-catppuccin-accent="maroon"] {
   --cp-accent: var(--cp-accent-maroon);
 }
-html[data-theme-catppuccin-accent="peach"] {
+:root[data-theme-catppuccin-accent="peach"] {
   --cp-accent: var(--cp-accent-peach);
 }
-html[data-theme-catppuccin-accent="yellow"] {
+:root[data-theme-catppuccin-accent="yellow"] {
   --cp-accent: var(--cp-accent-yellow);
 }
-html[data-theme-catppuccin-accent="green"] {
+:root[data-theme-catppuccin-accent="green"] {
   --cp-accent: var(--cp-accent-green);
 }
-html[data-theme-catppuccin-accent="teal"] { 
+:root[data-theme-catppuccin-accent="teal"] {
   --cp-accent: var(--cp-accent-teal);
 }
-html[data-theme-catppuccin-accent="sky"] {
+:root[data-theme-catppuccin-accent="sky"] {
   --cp-accent: var(--cp-accent-sky);
 }
-html[data-theme-catppuccin-accent="sapphire"] {
+:root[data-theme-catppuccin-accent="sapphire"] {
   --cp-accent: var(--cp-accent-sapphire);
 }
-html[data-theme-catppuccin-accent="blue"] {
+:root[data-theme-catppuccin-accent="blue"] {
   --cp-accent: var(--cp-accent-blue);
 }
-html[data-theme-catppuccin-accent="lavender"] {
+:root[data-theme-catppuccin-accent="lavender"] {
   --cp-accent: var(--cp-accent-lavender);
 }
 
