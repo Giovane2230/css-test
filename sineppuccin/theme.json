@@ -1,12 +1,19 @@
 {
   "id": "catppuccin",
-  "name": "Catppuccin",
-  "version": "0.0.1",
-  "description": "Catppuccin for Sine",
+  "homepage": "https://github.com/Giovane2230/catppuccin-sine",
   "author": "Giovane2230",
-  "styleSheets": {
-    "userChrome": "userChrome.css",
-    "userContent": "userContent.css"
+  "name": "Catppuccin",
+  "description": "Catppuccin for Sine",
+  "version": "0.0.1",
+  "style": {
+    "chrome": "userChrome.css",
+    "content": "userContent.css"
   },
-  "preferences": "preferences.json"
+  "settings": "preferences.json",
+  "tags": [
+    "contrast",
+    "pastel",
+    "catppuccin"
+  ],
+  "fork": ["zen"]
 }
