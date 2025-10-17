@@ -264,11 +264,3 @@
   --identity-tab-color: var(--cp-accent-sapphire) !important;
   --identity-icon-color: var(--cp-accent-sapphire) !important;
 }
-
-#nav-bar::after {
-  content: "";
-  display: block;
-  height: 4px;
-  background: var(--cp-accent) !important;
-}
-
