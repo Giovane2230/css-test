@@ -1,7 +1,7 @@
 [
   {
     "type": "dropdown",
-    "property": "flavor",
+    "property": "data-theme-catppuccin-flavor",
     "label": "Catppuccin Flavor",
     "default": "mocha",
     "options": [
@@ -13,7 +13,7 @@
   },
   {
     "type": "dropdown",
-    "property": "accent",
+    "property": "data-theme-catppuccin-accent",
     "label": "Accent Color",
     "default": "mauve",
     "options": [
