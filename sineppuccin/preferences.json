@@ -3,13 +3,13 @@
     "id": "flavor",
     "type": "select",
     "name": "Flavor",
-    "description": "Choose a flavor",
+    "description": "Choose a Catppuccin flavor",
     "default": "mocha",
     "options": [
-      { "value": "latte",     "label": "Latte" },
-      { "value": "frappe",    "label": "Frappe" },
+      { "value": "latte", "label": "Latte" },
+      { "value": "frappe", "label": "Frappe" },
       { "value": "macchiato", "label": "Macchiato" },
-      { "value": "mocha",     "label": "Mocha" }
+      { "value": "mocha", "label": "Mocha" }
     ]
   },
   {
@@ -20,8 +20,9 @@
     "default": "mauve",
     "options": [
       { "value": "rosewater", "label": "Rosewater" },
-      { "value": "mauve",     "label": "Mauve" },
+      { "value": "flamingo",  "label": "Flamingo" },
       { "value": "pink",      "label": "Pink" },
+      { "value": "mauve",     "label": "Mauve" },
       { "value": "red",       "label": "Red" },
       { "value": "maroon",    "label": "Maroon" },
       { "value": "peach",     "label": "Peach" },
