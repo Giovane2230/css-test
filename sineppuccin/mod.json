@@ -1,0 +1,44 @@
+{
+  "name": "Catppuccin",
+  "id": "catppuccin-sine",
+  "version": "1.0.0",
+  "author": "Giovane2230",
+  "description": "😼 Soothing pastel theme for Sine",
+  "homepage": "https://github.com/Giovane2230/catppuccin-Sine",
+  "repository": "https://github.com/Giovane2230/catppuccin-Sine",
+  "license": "MIT",
+  "tags": ["theme", "dark", "light", "contrast", "catppuccin", "pastel"],
+
+  "preferences": [
+    {
+      "id": "catppuccin-flavor",
+      "type": "dropdown",
+      "label": "Catppuccin Flavor",
+      "description": "Choose your Catppuccin flavor",
+      "default": "mocha",
+      "options": [
+        { "label": "🌿 Mocha", "value": "mocha" },
+        { "label": "🌺 Macchiato", "value": "macchiato" },
+        { "label": "🪴 Frappé", "value": "frappe" },
+        { "label": "🌻 Latte", "value": "latte" }
+      ]
+    },
+    {
+      "id": "catppuccin-accent",
+      "type": "dropdown",
+      "label": "Accent Color",
+      "description": "Choose your accent color",
+      "default": "mauve",
+      "options": [
+        { "label": "💜 Mauve", "value": "mauve" },
+        { "label": "💙 Blue", "value": "blue" },
+        { "label": "💚 Green", "value": "green" },
+        { "label": "💗 Pink", "value": "pink" },
+        { "label": "❤️ Red", "value": "red" },
+        { "label": "💛 Yellow", "value": "yellow" },
+        { "label": "🍑 Peach", "value": "peach" },
+        { "label": "🌊 Teal", "value": "teal" }
+      ]
+    }
+  ]
+}
