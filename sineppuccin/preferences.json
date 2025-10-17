@@ -1,21 +1,36 @@
 [
   {
-    "id": "flavor",
     "type": "dropdown",
-    "name": "Flavor",
-    "description": "Choose a Catppuccin flavor",
+    "property": "flavor",
+    "label": "Catppuccin Flavor",
     "default": "mocha",
-    "options": ["latte", "frappe", "macchiato", "mocha"]
+    "options": [
+      { "label": "Latte", "value": "latte" },
+      { "label": "Frappe", "value": "frappe" },
+      { "label": "Macchiato", "value": "macchiato" },
+      { "label": "Mocha", "value": "mocha" }
+    ]
   },
   {
-    "id": "accent",
     "type": "dropdown",
-    "name": "Accent color",
-    "description": "Choose an accent color",
+    "property": "accent",
+    "label": "Accent Color",
     "default": "mauve",
     "options": [
-      "rosewater", "flamingo", "pink", "mauve", "red", "maroon",
-      "peach", "yellow", "green", "teal", "sky", "sapphire", "blue", "lavender"
+      { "label": "Rosewater", "value": "rosewater" },
+      { "label": "Flamingo",  "value": "flamingo" },
+      { "label": "Pink",      "value": "pink" },
+      { "label": "Mauve",     "value": "mauve" },
+      { "label": "Red",       "value": "red" },
+      { "label": "Maroon",    "value": "maroon" },
+      { "label": "Peach",     "value": "peach" },
+      { "label": "Yellow",    "value": "yellow" },
+      { "label": "Green",     "value": "green" },
+      { "label": "Teal",      "value": "teal" },
+      { "label": "Sky",       "value": "sky" },
+      { "label": "Sapphire",  "value": "sapphire" },
+      { "label": "Blue",      "value": "blue" },
+      { "label": "Lavender",  "value": "lavender" }
     ]
   }
 ]
