@@ -9,7 +9,7 @@
     "chrome": "userChrome.css",
     "content": "userContent.css"
   },
-  "settings": "preferences.json",
+  "preferences": "preferences.json",
   "tags": [
     "contrast",
     "pastel",
