@@ -6,10 +6,10 @@
   "description": "Catppuccin for Sine",
   "version": "0.0.1",
   "style": {
-    "chrome": "userChrome.css",
-    "content": "userContent.css"
+    "chrome": "https://raw.githubusercontent.com/Giovane2230/css-test/main/userChrome.css",
+    "content": "https://raw.githubusercontent.com/Giovane2230/css-test/main/userContent.css"
   },
-  "preferences": "preferences.json",
+  "preferences": "https://raw.githubusercontent.com/Giovane2230/css-test/main/preferences.json",
   "tags": [
     "contrast",
     "pastel",
